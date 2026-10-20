@@ -4,8 +4,6 @@ import crypto from 'crypto'
 import passport from 'passport'
 import LocalStrategy from 'passport-local'
 import jwt from 'jsonwebtoken'
-import {ObjectId} from 'mongodb'
-import { error } from "console"
 
 const collectionName = 'users'
 
@@ -40,8 +38,8 @@ authRouter.post('/signup', async (req, res) => {
 
         const result = await Mongo.db.collection(collectionName).insertOne({
             email: req.body.email,
-            password: hashedPassword, // salva direto
-            salt: salt                // salva direto
+            password: hashedPassword,
+            salt: salt 
         })
 
         if(result.insertedId){
