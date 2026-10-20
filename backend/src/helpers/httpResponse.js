@@ -6,11 +6,11 @@ export const ok = (body) => {
     }
 }
 
-export const notFound = () => {
+export const notFound = (message = 'Not Found') => {
         return {
         success: false,
         statusCode: 404,
-        body: 'Not Found'
+        body: message
     }
 }
 

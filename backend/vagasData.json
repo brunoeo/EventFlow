@@ -1,0 +1,144 @@
+[
+  {
+    "nome": "Escuta Ativa",
+    "quantidade": 5
+  },
+  {
+    "nome": "Distribuição de comida",
+    "quantidade": 10
+  },
+  {
+    "nome": "Distribuição de água",
+    "quantidade": 5
+  },
+
+
+  
+  {
+    "nome": "Coleta de roupas",
+    "quantidade": 10
+  },
+  {
+    "nome": "Separação de agasalhos",
+    "quantidade": 8
+  },
+  {
+    "nome": "Distribuição de doações",
+    "quantidade": 10
+  },
+
+
+  {
+    "nome": "Coleta de lixo",
+    "quantidade": 20
+  },
+  {
+    "nome": "Pintura de muros",
+    "quantidade": 10
+  },
+  {
+    "nome": "Jardinagem",
+    "quantidade": 10
+  },
+
+
+  {
+    "nome": "Apoio na organização do evento",
+    "quantidade": 5
+  },
+  {
+    "nome": "Orientação aos visitantes",
+    "quantidade": 5
+  },
+  {
+    "nome": "Cuidados com os animais",
+    "quantidade": 10
+  },
+
+
+
+  {
+    "nome": "Apoio na organização do evento",
+    "quantidade": 5
+  },
+  {
+    "nome": "Orientação aos participantes",
+    "quantidade": 5
+  },
+  {
+    "nome": "Registro de vacinados",
+    "quantidade": 3
+  },
+
+
+  {
+    "nome": "Apoio na organização da oficina",
+    "quantidade": 3
+  },
+  {
+    "nome": "Auxílio na confecção de materiais recicláveis",
+    "quantidade": 8
+  },
+  {
+    "nome": "Orientação aos participantes",
+    "quantidade": 4
+  },
+
+
+  {
+    "nome": "Apoio na organização do evento",
+    "quantidade": 5
+  },
+  {
+    "nome": "Orientação aos doadores",
+    "quantidade": 5
+  },
+  {
+    "nome": "Registro de doações",
+    "quantidade": 3
+  },
+
+
+  {
+    "nome": "Apoio na organização do evento",
+    "quantidade": 5
+  },
+  {
+    "nome": "Plantio de mudas",
+    "quantidade": 20
+  },
+  {
+    "nome": "Orientação aos participantes",
+    "quantidade": 5
+  },
+
+
+
+  {
+    "nome": "Apoio na organização do evento",
+    "quantidade": 5
+  },
+  {
+    "nome": "Distribuição de materiais informativos",
+    "quantidade": 10
+  },
+  {
+    "nome": "Orientação aos participantes",
+    "quantidade": 5
+  },
+
+
+
+  {
+    "nome": "Apoio na organização do evento",
+    "quantidade": 5
+  },
+  {
+    "nome": "Orientação aos participantes",
+    "quantidade": 5
+  },
+  {
+    "nome": "Registro de trocas",
+    "quantidade": 3
+  }
+]

@@ -32,7 +32,6 @@ export default class UsersController {
     async updateUser(userId, userData){
         try{
             const result = await this.dataAccess.updateUser(userId, userData)                          
-            console.log('Result:' , result)
 
             if(!result){
                 return notFound()

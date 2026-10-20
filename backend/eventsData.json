@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Café da Manhã Solidário",
+    "available": false,
+    "description": "Distribuição de café da manhã para pessoas em situação de rua.",
+    "category": "acao social",
+    "date": "2026-10-15"
+  },
+  {
+    "name": "Campanha do Agasalho",
+    "available": true,
+    "description": "Coleta de roupas e agasalhos para doação a pessoas em situação de vulnerabilidade.",
+    "category": "acao social",
+    "date": "2026-11-20"
+  },
+  {
+    "name": "Mutirão de Limpeza",
+    "available": true,
+    "description": "Ação de limpeza e revitalização de espaços públicos.",
+    "category": "acao social",
+    "date": "2026-12-05"
+  },
+  {
+    "name": "Feira de Adoção de Animais",
+    "available": true,
+    "description": "Evento para promover a adoção responsável de animais de estimação.",
+    "category": "acao social",
+    "date": "2026-12-15"
+  },
+  {
+    "name": "Campanha de Vacinação",
+    "available": true,
+    "description": "Ação de vacinação para prevenção de doenças em comunidades carentes.",
+    "category": "acao social",
+    "date": "2026-12-20"
+  },
+  {
+    "name": "Oficina de Reciclagem",
+    "available": true,
+    "description": "Oficina educativa sobre reciclagem e sustentabilidade.",
+    "category": "acao social",
+    "date": "2026-12-25"
+  },
+  {
+    "name": "Campanha de Doação de Sangue",
+    "available": false,
+    "description": "Ação para incentivar a doação de sangue em parceria com hemocentros.",
+    "category": "acao social",
+    "date": "2026-12-30"
+  },
+  {
+    "name": "Mutirão de Plantio de Árvores",
+    "available": true,
+    "description": "Ação de plantio de árvores em áreas urbanas e rurais.",
+    "category": "acao social",
+    "date": "2027-01-10"
+  },
+  {
+    "name": "Campanha de Conscientização sobre Saúde Mental",
+    "available": true,
+    "description": "Ação para promover a conscientização sobre saúde mental e bem-estar.",
+    "category": "acao social",
+    "date": "2027-01-20"
+  },
+  {
+    "name": "Feira de Troca de Livros",
+    "available": true,
+    "description": "Evento para incentivar a leitura e a troca de livros entre a comunidade.",
+    "category": "acao social",
+    "date": "2027-02-05"
+  }
+]

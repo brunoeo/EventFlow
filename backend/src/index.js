@@ -4,6 +4,8 @@ import { Mongo } from "./database/mongo.js"
 import {config} from 'dotenv'
 import authRouter from './auth/auth.js'
 import usersRouter from './routers/users.js'
+import eventsRouter from './routers/events.js'
+import ticketsRouter from './routers/tickets.js'
 
 config()
 async function main() {
@@ -29,10 +31,15 @@ async function main() {
 
     app.use('/auth', authRouter)
     app.use('/users', usersRouter)
+    app.use("/events", eventsRouter)
+    app.use("/tickets", ticketsRouter)
 
     app.listen(port, () => {
         console.log(`Server runnig on: http://${hostname}:${port}`);
     })
 }
 
-main()
+main().catch((error) => {
+    console.error('Failed to start server:', error)
+    process.exitCode = 1
+})
