@@ -110,6 +110,16 @@ export default class ticketsDataAccess {
         .collection(collectionName)
         .findOneAndDelete({_id: objectId})
 
+        await Mongo.db
+        .collection(vagasCollectionName)
+        .updateOne(
+            { _id: result.vagaId },
+            {
+                $inc: { ocupadas: -1 },
+                $set: { available: true }
+            }
+        );
+
         return result
     }
 
